@@ -7,23 +7,27 @@
 int main(){
   // Área para definição das variáveis para armazenar as propriedades das cidades
 
-    // Carta 1
-    char estado1;
-    char codigo1[4];
-    char cidade1[50];
-    int populacao1;
-    float area1;
-    float pib1;
-    int pontos1;
+    //Carta 1
 
-    // Carta 2
-    char estado2;
-    char codigo2[4];
-    char cidade2[50];
-    int populacao2;
-    float area2;
-    float pib2;
-    int pontos2;
+    char estado1; //Declara variavel estado carta 1
+    char codigo1[4]; //Declara variavel codigo da carta 1
+    char cidade1[50]; //Declara Nome da cidade da carta 1
+    int populacao1; //Declara tamanho população da carta 1
+    float area1; //Declara Área territorial em Km² da carta 1
+    float pib1; //Declara PIB da carta 1
+    int pontos1; //Declara pontos turísticos da carta 1
+
+
+  //Carta 2
+
+    char estado2; //Declara variavel estado carta 2
+    char codigo2[4]; //Declara variavel codigo da carta 2
+    char cidade2[50]; //Declara variavel cidade da carta 2
+    int populacao2; //Declara variavel populacao da carta 2
+    float area2; //Declara variavel Área territorial em Km² da carta 2
+    float pib2; //Declara variavel PIB da carta 2
+    int pontos2; //Declara variavel pontos turísticos da carta 2
+
 
   // Área para entrada de dados
 
