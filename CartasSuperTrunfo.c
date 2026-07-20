@@ -33,73 +33,73 @@ int main(){
 
     //Entrada Carta 1
 
-    printf("Insira os dados da Carta1\n");
+    printf("Insira os dados da Carta1\n"); //Indica na tela para inserir dados da Carta 1
 
-    printf("Digite a letra do Estado da Carta1: ");
-    scanf(" %c", &estado1);
+    printf("Digite a letra do Estado da Carta1: "); //Pede ao usuario que digite a letra do Estado da Carta1
+    scanf(" %c", &estado1); //Captura dados inseridos do Estado da Carta 1
 
-    printf("Digite o Codigo da Carta 1: ");
-    scanf("%s", codigo1);
+    printf("Digite o Codigo da Carta 1: "); //Pede ao usuario que digite o codigo da Carta 1
+    scanf("%s", codigo1); //Captura dados inseridos do codigo da Carta 1
 
-    printf("Digite o nome da Cidade da Carta 1: ");
-    scanf(" %[^\n]", cidade1);
+    printf("Digite o nome da Cidade da Carta 1: "); //Pede ao usuario que digite o nome da cidade da Carta 1
+    scanf(" %[^\n]", cidade1); //Captura dados inseridos do nome da cidade da Carta 1
 
-    printf("Digite o tamanho da populacao da Carta 1: ");
-    scanf("%d", &populacao1);
+    printf("Digite o tamanho da populacao da Carta 1: "); //Pede ao usuario que digite a população da Carta 1
+    scanf("%d", &populacao1); //Captura dados inseridos da população da Carta 1
 
-    printf("Digite a Area (km²) da Carta 1: ");
-    scanf("%f", &area1);
+    printf("Digite a Area (km²) da Carta 1: "); //Pede ao usuario que digite a area em Km² da Carta 1
+    scanf("%f", &area1); //Captura dados inseridos da area em Km² da Carta 1
 
-    printf("Digite o PIB (bilhoes) da Carta 1: ");
-    scanf("%f", &pib1);
+    printf("Digite o PIB (bilhoes) da Carta 1: "); //Pede ao usuario que digite o PIB da Carta 1
+    scanf("%f", &pib1); //Captura dados inseridos do PIB da Carta 1
 
-    printf("Digite o numero de pontos turisticos da Carta 1: ");
-    scanf("%d", &pontos1);
+    printf("Digite o numero de pontos turisticos da Carta 1: "); //Pede ao usuario que digite os pontos turisticos da Carta 1
+    scanf("%d", &pontos1); //Captura dados inseridos dos pontos turisticos da Carta 1
 
     // Entrada Carta 2
-    printf("Insira os dados da Carta 2\n");
+    printf("Insira os dados da Carta 2\n"); //Indica na tela para inserir dados da Carta 2
 
-    printf("Digite a letra do Estado da Carta 2: ");
-    scanf(" %c", &estado2);
+    printf("Digite a letra do Estado da Carta 2: "); //Pede ao usuario que digite o Estado da Carta 2
+    scanf(" %c", &estado2); //Captura dados inseridos do Estado da Carta 2
 
-    printf("Digite o Codigo da Carta 2: ");
-    scanf("%s", codigo2);
+    printf("Digite o Codigo da Carta 2: "); //Pede ao usuario que digite o codigo da Carta 2
+    scanf("%s", codigo2); //Captura dados inseridos do codigo da Carta 2
 
-    printf("Digite o nome da Cidade da Carta 2: ");
-    scanf(" %[^\n]", cidade2);
+    printf("Digite o nome da Cidade da Carta 2: "); //Pede ao usuario que digite o nome da cidade da Carta 2
+    scanf(" %[^\n]", cidade2); //Captura dados inseridos nome da cidade da Carta 2
 
-    printf("Digite o tamanho da populacao da Carta 2: ");
-    scanf("%d", &populacao2);
+    printf("Digite o tamanho da populacao da Carta 2: "); //Pede ao usuario que digite a população da Carta 2
+    scanf("%d", &populacao2); //Captura dados inseridos da população da Carta 2
 
-    printf("Digite a Area (km²) da Carta 2: ");
-    scanf("%f", &area2);
+    printf("Digite a Area (km²) da Carta 2: "); //Pede ao usuario que digite a area em Km² da Carta 2
+    scanf("%f", &area2); //Captura dados inseridos da area em Km² da Carta 2
 
-    printf("Digite o PIB (bilhoes) da Carta 2: ");
-    scanf("%f", &pib2);
+    printf("Digite o PIB (bilhoes) da Carta 2: "); //Pede ao usuario que digite o PIB da Carta 2
+    scanf("%f", &pib2); //Captura dados inseridos do PIB da Carta 2
 
-    printf("Digite o numero de pontos turisticos da Carta 2: ");
-    scanf("%d", &pontos2);
+    printf("Digite o numero de pontos turisticos da Carta 2: "); //Pede que o usuario digite os pontos turisticos da Carta 2
+    scanf("%d", &pontos2); //Captura dados inseridos dos pontos turisticos da Carta 2
 
     
   // Área para exibição dos dados da cidade
 
-    printf("\nCarta 1\n");
-    printf("Estado: %c\n", estado1);
-    printf("Codigo: %s\n", codigo1);
-    printf("Nome da Cidade: %s\n", cidade1);
-    printf("Populacao: %d\n", populacao1);
-    printf("Area: %.2f km²\n", area1);
-    printf("PIB: %.2f bilhões de reais\n", pib1);
-    printf("Numero de Pontos Turisticos: %d\n", pontos1);
+    printf("\nCarta 1\n"); //Exibe na tela dados Carta 1
+    printf("Estado: %c\n", estado1); //Exibe na tela dados do Estado da Carta 1
+    printf("Codigo: %s\n", codigo1); //Exibe na tela dados do codigo da Carta 1
+    printf("Nome da Cidade: %s\n", cidade1); //Exibe na tela dados nome da cidade Carta 1
+    printf("Populacao: %d\n", populacao1); //Exibe na tela dados da população da Carta 1
+    printf("Area: %.2f km²\n", area1); //Exibe na tela dados da area em Km² da Carta 1
+    printf("PIB: %.2f bilhões de reais\n", pib1); //Exibe na tela dados do PIB da Carta 1
+    printf("Numero de Pontos Turisticos: %d\n", pontos1); //Exibe dados na tela dos pontos turisticos da Carta 1
 
-    printf("\nCarta 2\n");
-    printf("Estado: %c\n", estado2);
-    printf("Codigo: %s\n", codigo2);
-    printf("Nome da Cidade: %s\n", cidade2);
-    printf("Populacao: %d\n", populacao2);
-    printf("Area: %.2f km²\n", area2);
-    printf("PIB: %.2f bilhões de reais\n", pib2);
-    printf("Numero de Pontos Turisticos: %d\n", pontos2);
+    printf("\nCarta 2\n"); //Exibe na tela dados da Carta 2
+    printf("Estado: %c\n", estado2); //Exibe na tela dados do estado da Carta 2
+    printf("Codigo: %s\n", codigo2); //Exibe na tela dados do codigo da Carta 2
+    printf("Nome da Cidade: %s\n", cidade2); //Exibe na tela dados do nome da cidade da Carta 2
+    printf("Populacao: %d\n", populacao2); //Exibe na tela dados da população da Carta 2
+    printf("Area: %.2f km²\n", area2); //Exibe na tela dados da area em Km² da Carta 2
+    printf("PIB: %.2f bilhões de reais\n", pib2); //Exibe na tela dados do PIB da Carta 2
+    printf("Numero de Pontos Turisticos: %d\n", pontos2); //Exibe na tela dados dos pontos turisticos da Carta 2
 
     return 0;
 }
