@@ -16,7 +16,8 @@ int main(){
     float area1; //Declara Área territorial em Km² da carta 1
     float pib1; //Declara PIB da carta 1
     int pontos1; //Declara pontos turísticos da carta 1
-
+    float densidade1; //Dados densidade Populacional carta 1
+    float pibpercapita1; //Dados PIB per Capita carta 1
 
   //Carta 2
 
@@ -27,7 +28,8 @@ int main(){
     float area2; //Declara variavel Área territorial em Km² da carta 2
     float pib2; //Declara variavel PIB da carta 2
     int pontos2; //Declara variavel pontos turísticos da carta 2
-
+    float densidade2; //Dados densidade Populacional carta 2
+    float pibpercapita2; //Dados PIB per Capita carta 2
 
   // Área para entrada de dados
 
@@ -56,6 +58,7 @@ int main(){
     printf("Digite o numero de pontos turisticos da Carta 1: "); //Pede ao usuario que digite os pontos turisticos da Carta 1
     scanf("%d", &pontos1); //Captura dados inseridos dos pontos turisticos da Carta 1
 
+  
     // Entrada Carta 2
     printf("Insira os dados da Carta 2\n"); //Indica na tela para inserir dados da Carta 2
 
@@ -91,6 +94,12 @@ int main(){
     printf("Area: %.2f km²\n", area1); //Exibe na tela dados da area em Km² da Carta 1
     printf("PIB: %.2f bilhões de reais\n", pib1); //Exibe na tela dados do PIB da Carta 1
     printf("Numero de Pontos Turisticos: %d\n", pontos1); //Exibe dados na tela dos pontos turisticos da Carta 1
+    densidade1 = (float) populacao1 / area1; // Calcula Densidade Populacional Carta 1
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade1); //Exibe dados densidade populacional carta 1
+    pibpercapita1 = (float) pib1 / populacao1; //Calcula PIB per capita carta 1
+    printf("PIB per Capita: %.2f reais\n", pibpercapita1); // Exibe dados PIB per capita carta 1
+
+
 
     printf("\nCarta 2\n"); //Exibe na tela dados da Carta 2
     printf("Estado: %c\n", estado2); //Exibe na tela dados do estado da Carta 2
@@ -100,6 +109,11 @@ int main(){
     printf("Area: %.2f km²\n", area2); //Exibe na tela dados da area em Km² da Carta 2
     printf("PIB: %.2f bilhões de reais\n", pib2); //Exibe na tela dados do PIB da Carta 2
     printf("Numero de Pontos Turisticos: %d\n", pontos2); //Exibe na tela dados dos pontos turisticos da Carta 2
+    densidade2 = (float) populacao2 / area2; // Calcula Densidade Populacional Carta 2
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade2); //Exibe dados densidade populacional carta 2
+    pibpercapita2 = (float) pib2 / populacao2; //Calcula PIB per capita carta 2
+    printf("PIB per Capita: %.2f reais\n", pibpercapita2); // Exibe dados PIB per capita carta 2
+
 
     return 0;
 }
